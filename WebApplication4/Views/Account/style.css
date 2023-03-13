@@ -8,10 +8,11 @@ h3,
 h4,
 h5,
 h6 {
-    color: #5c5b5b;
+
+    font-size: 15px;
 }
 body{
-    background: #f6f6f6;
+    background:#F0F8FF;
 }
 a{
     text-decoration: none;
@@ -22,20 +23,31 @@ a{
     HEADER
  */
 header{
-    background: #008484;
-    height: 180px;
+    background:#4682B4;
+    height: 65px;
 }
 header *{
-    color: #5c5b5b;
+    color: #000000;
 }
 header h1 {
-    margin-top: 13px;
+    color: #FFFFFF;
+    margin-top: 10px;
 }
 header h1 a{
-    color: #5c5b5b;
+
+    color: #FFFFFF;
+    font-size: 10px;
 }
 header h1 a:hover{
-    color: #5c5b5b;
+
+    color: #FFFFFF;
+    font-size: 5px;
+}
+
+header h3 a{
+
+    color: #FFFFFF;
+    font-size: 10px;
 }
 header ul{
     margin: 0;
@@ -82,9 +94,23 @@ header ul li ul li a {
 FORMS
  */
 
+.reg_form body{
+    background:#F0F8FF;
+}
+.reg_form header {
+    background: #4682B4;
+    height: 65px;
+}
+.reg_form header *{
+    color: #000000;
+}
+.reg_form body{
+    background:#F0F8FF;
+}
+
 .reg_form h2{
     text-align: center;
-    margin: 30px 0;
+    margin: 50px 0;
 }
 .reg_form input{
     height: 3.3rem;
@@ -102,3 +128,32 @@ FORMS
     transition: all .3s;
 }
 /*
+MainPage
+ */
+
+.panel {
+    margin-top: 20px;
+    border:#FFFFFF solid 650px;
+    width:650px;
+    height: 1000px;
+}
+.panel > .title {
+    z-index: 111;
+    background-color: #000000;
+}
+/*
+LOG
+*/
+.fluid body{
+    background:#F0F8FF;
+}
+.fluid header {
+    background: #4682B4;
+    height: 65px;
+}
+.fluid header *{
+    color: #000000;
+}
+.fluid body{
+    background:#F0F8FF;
+}
